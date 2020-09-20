@@ -1,0 +1,14 @@
+.container {
+    /*background-image:url(./assets/josep-martins-9lGNHu1FMvM-unsplash.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-color: #A9DFBF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#myName {
+    font-family: sans-serif;
+    font-stretch: semi-expanded;
+    text-align: center;
+
+}

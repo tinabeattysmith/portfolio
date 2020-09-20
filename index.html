@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--BOOT STRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- My CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <title> Tina Beatty-Smith's Portfolio</title>
+</head>
+<body>
+  <div class="container container-fluid">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+        <h1 class="display-4">Tina Beatty-Smith</h1>
+        <p class="lead">Web Developer.</p>
+    </div>
+
+    <!-- About Me Section-->
+    <div class="card">
+      <div class="card-body">
+        This is some text within a card body.
+      </div>
+    </div>
+
+    <!--Projects Carousel-->
+    <!--
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/josep-martins-9lGNHu1FMvM-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/karen-martinez-_bHzC5CSyYY-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/sean-robertson-nws6JU1-ZX0-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>-->
+
+    <!--Project Thumbnails--> 
+    <div class="card-columns">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title that wraps to a new line</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+          <footer class="blockquote-footer text-white">
+            <small>
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+      </div>
+    </div>
+
+    <!-- Contact me-->
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form><style>/* reset */
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled {
+      font-family: inherit;
+      font-size: 100%;
+      color: inherit;
+      border: none;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+    #fs-frm label,
+    #fs-frm legend,
+    #fs-frm ::placeholder {
+      font-size: .825rem;
+      margin-bottom: .5rem;
+      padding-top: .2rem;
+      display: flex;
+      align-items: baseline;
+    }
+    
+    /* border, padding, margin, width */
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm #card-element {
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.9);
+      padding: .75em 1rem;
+      margin-bottom: 1.5rem;
+    }
+    #fs-frm input:focus,
+    #fs-frm select:focus,
+    #fs-frm textarea:focus {
+      background-color: white;
+      outline-style: solid;
+      outline-width: thin;
+      outline-color: gray;
+      outline-offset: -1px;
+    }
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
+      width: 100%;
+    }
+    #fs-frm [type="button"],
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"] {
+      width: auto;
+      cursor: pointer;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+    }
+    #fs-frm [type="button"]:focus,
+    #fs-frm [type="submit"]:focus,
+    #fs-frm [type="reset"]:focus {
+      outline: none;
+    }
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"] {
+      margin-bottom: 0;
+    }
+    #fs-frm select {
+      text-transform: none;
+    }
+    
+    #fs-frm [type="checkbox"] {
+      -webkit-appearance: checkbox;
+      -moz-appearance: checkbox;
+      appearance: checkbox;
+      display: inline-block;
+      width: auto;
+      margin: 0 .5em 0 0 !important;
+    }
+    
+    #fs-frm [type="radio"] {
+      -webkit-appearance: radio;
+      -moz-appearance: radio;
+      appearance: radio;
+    }
+    
+    /* address, locale */
+    #fs-frm fieldset.locale input[name="city"],
+    #fs-frm fieldset.locale select[name="state"],
+    #fs-frm fieldset.locale input[name="postal-code"] {
+      display: inline;
+    }
+    #fs-frm fieldset.locale input[name="city"] {
+      width: 52%;
+    }
+    #fs-frm fieldset.locale select[name="state"],
+    #fs-frm fieldset.locale input[name="postal-code"] {
+      width: 20%;
+    }
+    #fs-frm fieldset.locale input[name="city"],
+    #fs-frm fieldset.locale select[name="state"] {
+      margin-right: 3%;
+    }
+    </style>
+
+    <!-- footer -->
+    <div class="footer">
+      <footer>
+        Tina Beatty-Smith 2020
+      </footer>
+    </div>
+ 
+    <!--BOOT STRAP-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</div> 
+</body>
+</html>
