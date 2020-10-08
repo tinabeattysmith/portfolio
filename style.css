@@ -22,7 +22,7 @@
     background-color: rgba(207, 207, 207, 0.5); 
     color: black;
     font-family: 'Palatino', 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     border: none;
 }
@@ -74,6 +74,7 @@
 }
 
 #contactMeText {
+    font-size: large;
     color: darkgreen;
     font-weight: bold;
     width: 40%;
@@ -101,7 +102,7 @@
 
 #fs-frm label, 
 #fs-frm ::placeholder {
-    font-size: 16;
+    font-size: 14px;
     margin-bottom: .5rem;
     padding-top: .2rem;
     display: flex;
@@ -135,6 +136,7 @@
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
     display: block;
+    font-size: 14px;
     float: left;
     width: auto;
     cursor: pointer;
