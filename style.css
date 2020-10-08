@@ -1,21 +1,157 @@
 .containerPage{
-    background-image: url("./assets/road.jpg");
+    background-color: darkgray;
+    background-image: url("./assets/road2.jpg");
     background-size: cover;
     background-repeat: none;
     background-position: center;
-    width: 100vw;
 }
+
+.jumbotron {
+    text-align: right;
+    background-color: transparent; 
+    color: darkgreen;
+    font-style: italic;
+}
+
+.lead {
+    font-weight: 600;
+}
+
+#aboutMe {
+    width: 50%;
+    background-color: rgba(207, 207, 207, 0.0); 
+    color: rgb(246, 255, 4);
+    font-family: 'Palatino', 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+}
+
+#resume:link {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(24, 255, 24);
+}
+
+#resume:visited {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(24, 255, 24);
+}
+
+#myWork {
+    background-color: transparent;
+    color:rgb(246, 255, 4);
+    border: none;
+}
+
+#myWork a:hover{
+    transform: scale(1.2);
+}
+
 .containerFuture {
     position: relative;
     text-align: center;
     color: black;
     font-size: larger;
     font-weight: bolder;
-  }
+}
 
-  .centered {
+.centered {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
+#contactMe {   
+    background-color: transparent;
+    border: none;
+    color: darkgreen;
+}
+
+#contactMeText {
+    color: darkgreen;
+    font-weight: bold;
+    width: 40%;
+}
+
+.cardbody {
+    background-color: transparent;
+}
+
+#fs-frm input, #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm label {
+        font-family: inherit;
+        font-size: 100%;
+        color: inherit;
+        border: none;
+        border-radius: 0;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+}
+
+#fs-frm label, 
+#fs-frm ::placeholder {
+    font-size: 16;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    display: flex;
+    align-items: baseline;
+}
+      
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm textarea {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: lightgray;
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#fs-frm input:focus,
+#fs-frm textarea:focus {
+    background-color: lightgrey;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: gray;
+    outline-offset: -1px;
+}
+
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+    width: 100%;
+}
+
+
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+    display: block;
+    float: left;
+    width: auto;
+    cursor: pointer;
+}
+
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+    outline: none;
+}
+
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+margin-bottom: 0;
+}
+ 
+ 
+      
+
+.footer {
+    display: block;
+    text-align: center; 
+}
