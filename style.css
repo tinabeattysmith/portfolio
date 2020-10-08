@@ -18,31 +18,33 @@
 }
 
 #aboutMe {
-    width: 50%;
-    background-color: rgba(207, 207, 207, 0.0); 
-    color: rgb(246, 255, 4);
+    width: 60;
+    background-color: rgba(207, 207, 207, 0.5); 
+    color: black;
     font-family: 'Palatino', 'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
     border: none;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
 }
 
 #resume:link {
     font-size: 20px;
-    font-weight: 500;
-    color: rgb(24, 255, 24);
+    font-weight: bolder;
+    color: blue
 }
 
 #resume:visited {
     font-size: 20px;
-    font-weight: 500;
-    color: rgb(24, 255, 24);
+    font-weight: bolder;
+    color: blue;
 }
 
 #myWork {
     background-color: transparent;
-    color:rgb(246, 255, 4);
+    color:darkgreen;
+    outline: black;
+    font-size: 20px;
+    font-weight: bolder;
     border: none;
 }
 
